@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Flask Calculator</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <div class="calculator">
+        <h1>Simple Calculator</h1>
+        <form action="/calculate" method="post">
+            <input type="text" name="expression" value="{{ expression }}" placeholder="Enter expression" class="expression">
+            <input type="submit" value="Calculate" class="calculate-btn">
+        </form>
+        <div class="result">
+            {% if expression %}
+            <p>{{ expression }} = {{ result }}</p>
+            {% endif %}
+            {% if error_message %}
+            <p>{{ error_message }}</p>
+            {% endif %}
+        </div>
+    </div>
+</body>
+</html>
+
