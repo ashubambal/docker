@@ -1,0 +1,4 @@
+Dockerfile
+
+docker build <Dockerfile_loacation> -t <image_name>
+
