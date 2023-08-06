@@ -9,20 +9,24 @@
 echo "Updating the system..."
 sudo apt-get update -y
 echo "System updated sucessfully "
-echo " "
+echo "--------------------------------------- "
 
 # Install the docker
 echo "Installing Docker..."
 sudo apt-get install docker.io -y
 echo "Docker Installation Complited"
-echo " "
+echo "--------------------------------------- "
 
 # Add user to docker group 
 echo "Adding user to the docker group..."
 sudo usermod -aG docker ubuntu
 echo "User added sucessefully on docker group"
-echo " "
+echo "--------------------------------------- "
 
-# Reboot the system 
-echo "Rebooting System..."
-sudo reboot
+# Restart the docker
+echo "Restarting docker..."
+sudo systemctl restart docker
+echo "--------------------------------------- "
+
+# Check Docker Version 
+echo "Docker vesrion =>" | docker --version
