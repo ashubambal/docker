@@ -3,3 +3,11 @@ Dockerfile
 docker build <Dockerfile_loacation> -t <image_name>
 
 docker run -d -p 8000:8000 <image-name>
+
+# local github configuration
+
+git remote -v
+git remote set-url --add origin https://<token_name>@<repo_url>
+git remote set-url --delete origin <old_repo_url>
+
+
