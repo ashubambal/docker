@@ -2,3 +2,4 @@ Dockerfile
 
 docker build <Dockerfile_loacation> -t <image_name>
 
+docker run -d -p 8000:8000 <image-name>
