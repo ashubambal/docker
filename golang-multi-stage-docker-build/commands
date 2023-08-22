@@ -1,0 +1,656 @@
+    1  cd terraform/terraform_instance_creation/
+    2  clear
+    3  ll
+    4  vi .gitignore
+    5  clear
+    6  ll
+    7  git status
+    8  git add .
+    9  git status
+   10  clear
+   11  ll
+   12  clear
+   13  ll
+   14  vi main.tf
+   15  clear
+   16  cd terraform/terraform_instance_creation/
+   17  clear
+   18  ll
+   19  cd ..
+   20  ll
+   21  clear
+   22  ll
+   23  cd aws_first_instance/
+   24  ll
+   25  clear
+   26  ll
+   27  cat aws-kp.tf 
+   28  clear
+   29  ll
+   30  cat instance.tf 
+   31  clear
+   32  clear
+   33  ll
+   34  clear
+   35  git clone https://github.com/ashubambal/terraform.git~
+   36  git clone https://github.com/ashubambal/terraform.git
+   37  clear
+   38  ll
+   39  cd terraform/
+   40  ll
+   41  ./terraform_installation_script.sh 
+   42  clear
+   43  terraform --version
+   44  clear
+   45  ll
+   46  clear
+   47  git remote -v
+   48  git remote set-url --add origin https://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1@github.com/ashubambal/terraform.git
+   49  git remote -v
+   50  git remote set-url --delete origin https://github.com/ashubambal/terraform.git~
+   51  git remote set-url --delete origin https://github.com/ashubambal/terraform.git
+   52  clear
+   53  ll
+   54  mkdir terraform_instance_creation
+   55  cd terraform_instance_creation/
+   56  clear
+   57  ll
+   58  clear
+   59  ll
+   60  vi README.md
+   61  ll
+   62  clear
+   63  vi .gitignore
+   64  clear
+   65  ll
+   66  clear
+   67  ll
+   68  git add status
+   69  git status
+   70  git add
+   71  git add .
+   72  git status
+   73  clear
+   74  git commit -m "file added"
+   75  git log
+   76  clear
+   77  git log --oneline
+   78  clear
+   79  git status
+   80  git push origin main
+   81  git remote -v
+   82  git remote set-url --add origin https://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1@github.com/ashubambal/terraform.git
+   83  git remote -v
+   84  git push origin main
+   85  clear
+   86  git remote -v
+   87  git remote 
+   88  git remote -
+   89  git remote set-url --delete origin https://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1@github.com/ashubambal/terraform.gi
+   90  clear
+   91  git remote -v
+   92  git remote set-url --delete origin https://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1@github.com/ashubambal/terraform.git
+   93  git remote set-url --delete origin https://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1@github.com/ashubambal/terraform.gitclear
+   94  clear
+   95  git remote -v
+   96  https://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1@github.com/ashubambal/terraform.gi
+   97  git remo
+   98  git remote -
+   99  git remote set-url --add origin https://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@github.com/ashubambal/terraform.git
+  100  git remote -v
+  101  git remote set-url --delete origin https://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1@github.com/ashubambal/terraform.git
+  102  git remote -v
+  103  clear
+  104  git push origin main
+  105  clear
+  106  cd ..
+  107  ll
+  108  cd aws_first_instance/
+  109  ll
+  110  cat provider.tf 
+  111  cat terraform.tf
+  112  cd ..
+  113  ll
+  114  cd ..
+  115  l
+  116  ll
+  117  cd terraform/
+  118  ll
+  119  cd terraform_first_resource/
+  120  ll
+  121  cd ..
+  122  git status
+  123  clear
+  124  ll
+  125  git pull
+  126  ls
+  127  cd terraform_instance_creation/
+  128  clear
+  129  ls
+  130  ll
+  131  clear
+  132  cd terraform/terraform_instance_creation
+  133  clear
+  134  ll
+  135  clear
+  136  vi terraform.tf
+  137  vi provider.tf
+  138  clear
+  139  terraform init
+  140  ll
+  141  clear
+  142  ll
+  143  clear
+  144  cd terraform/terraform_instance_creation/
+  145  clear
+  146  ll
+  147  rm -rf .main.tf.swp 
+  148  clear
+  149  ll
+  150  vi main.tf
+  151  clear
+  152  terraform fmt
+  153  vi main.tf
+  154  terraform validate
+  155  terraform plan
+  156  clear
+  157  vi provider.tf 
+  158  ll
+  159  vi .provider.tf.swp 
+  160  rm .provider.tf.swp 
+  161  clear
+  162  ll
+  163  vi provider.tf 
+  164  clear
+  165  terraform fmt
+  166  terraform validate
+  167  terraform plan
+  168  vi main.tf 
+  169  clear
+  170  vi main.tf 
+  171  terraform plan
+  172  vi main.tf 
+  173  terraform plan
+  174  clear
+  175  vi main.tf 
+  176  clear
+  177  vi main.tf 
+  178  terraform fmt
+  179  terraform plan
+  180  vi main.tf 
+  181  terraform plan
+  182  vi main.tf 
+  183  terraform plan
+  184  vi main.tf 
+  185  clear
+  186  vi main.tf 
+  187  vi security_group.tf
+  188  terraform plan
+  189  vi security_group.tf \
+  190  vi security_group.tf
+  191  terraform plan
+  192  clear
+  193  terraform init -upgrade
+  194  vi main.tf 
+  195  terraform plan
+  196  clear
+  197  rm security_group.tf 
+  198  terraform plan
+  199  ll
+  200  vi main.tf 
+  201  clear
+  202  terraform fmt
+  203  terraform validate
+  204  terraform plan
+  205  clear
+  206  vi main.tf 
+  207  clear
+  208  terraform fmt
+  209  terraform validate
+  210  terraform plan
+  211  terraform apply --auto-approve
+  212  vi main.tf 
+  213  terraform plan
+  214  terraform apply --auto-approve
+  215  clear
+  216  git clone https://github.com/ashubambal/Jenkins.git
+  217  cd cd Jenkins/
+  218  cd Jenkins/
+  219  clear
+  220  ll
+  221  cat jenkins-installation.sh 
+  222  ./clear
+  223  clear
+  224  ./jenkins-installation.sh 
+  225  ll
+  226  cd Jenkins/
+  227  clear
+  228  git remote -v
+  229  git remote -
+  230  git remote set-url --add origin https://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@github.com/ashubambal/Jenkins.git
+  231  git remote set-url --delete origin https://github.com/ashubambal/Jenkins.git
+  232  git remote -v
+  233  cd Jenkins/
+  234  clear
+  235  git status
+  236  cd /var/lib/jenkins/
+  237  ll
+  238  cd workspace/
+  239  clear
+  240  ll
+  241  ll -a
+  242  cd Node-App/
+  243  clear
+  244  git status
+  245  ll -la
+  246  git status
+  247  clear
+  248  sudo apt install docker.io
+  249  clear
+  250  docker ps
+  251  sudo usermod -aG docker jenkins
+  252  sudo reboot
+  253  clear
+  254  docker ps
+  255  sudo usermod -aG docker ubuntu
+  256  cat /etc/group
+  257  sudo reboot
+  258  clear
+  259  docker ps
+  260  docker images
+  261  clear
+  262  cd Jenkins/
+  263  ll
+  264  clear
+  265  cd Jenkins/
+  266  clear
+  267  ll
+  268  cd ..
+  269  ll
+  270  git clone https://github.com/ashubambal/node-todo-cicd.git
+  271  clear
+  272  ll
+  273  cd node-todo-cicd/
+  274  clear
+  275  ll
+  276  vi docker-compose.yaml 
+  277  clear
+  278  cat Dockerfile 
+  279  clear
+  280  git remote -v
+  281  git remote -
+  282  git remote set-url --add origin https://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@github.com/ashubambal/node-todo-cicd.git
+  283  git remote -v
+  284  git remote -
+  285  git remote set-url --delete origin https://github.com/ashubambal/node-todo-cicd.git
+  286  git remote -v
+  287  clear
+  288  git status
+  289  git add .
+  290  git commit -m "docker compose file updated"
+  291  git push origin main
+  292  git push origin master
+  293  clear
+  294  sudo apt install docker-compose -y
+  295  docker ps
+  296  clear
+  297  ll
+  298  cat Jenkinsfile 
+  299  docker ps
+  300  clear
+  301  ll
+  302  cd views/
+  303  ll
+  304  vi todo.ejs 
+  305  clear
+  306  git status
+  307  git add .
+  308  git status
+  309  git commit -m "kya kar raha hai tu"
+  310  git push origin master
+  311  clear
+  312  ll
+  313  cd ..
+  314  vi Jenkinsfile 
+  315  clear
+  316  git branch
+  317  git checkout -b dev
+  318  git branch
+  319  vi Jenkinsfile 
+  320  clear
+  321  git add .
+  322  git status
+  323  git commit -m "Jenkins file added on dev"
+  324  git push origin dev
+  325  git pull origin dev
+  326  git push origin dev
+  327  vi Jenkinsfile 
+  328  git add .
+  329  git commit -m "Jenkins file added on dev"
+  330  git push origin dev
+  331  clear
+  332  vi Jenkinsfile 
+  333  git add .
+  334  git commit -m "Jenkins file added on dev"
+  335  git push origin dev
+  336  cd Jenkins/
+  337  clear
+  338  cd ..
+  339  cd node-todo-cicd/
+  340  clear
+  341  git branch
+  342  cat Jenkinsfile 
+  343  clear
+  344  ll
+  345  cd node-todo-cicd/
+  346  clear
+  347  git pull
+  348  clear
+  349  cd ..
+  350  git clone https://github.com/ashubambal/node-todo-cicd-aws-pipeline.git
+  351  cd node-todo-cicd-aws-pipeline/
+  352  clear
+  353  ll
+  354  vi README.md
+  355  clear
+  356  cd ..
+  357  cd node-todo-cicd
+  358  ll
+  359  rm -rf read.sh 
+  360  rm -rf test.js 
+  361  clear
+  362  ls
+  363  ll
+  364  cp -r views/* ../node-todo-cicd-aws-pipeline/
+  365  ls ../node-todo-cicd-aws-pipeline/
+  366  ll
+  367  clear
+  368  cd ..
+  369  cd node-todo-cicd-aws-pipeline/
+  370  ll
+  371  ls ../node-todo-cicd
+  372  mkdir views
+  373  ll
+  374  mv edititem.ejs views/
+  375  ll
+  376  mv todo.ejs views/
+  377  clear
+  378  ll
+  379  cd ..
+  380  cd node-todo-cicd
+  381  ll
+  382  cp Dockerfile ../node-todo-cicd-aws-pipeline/
+  383  cp app.js ../node-todo-cicd-aws-pipeline/
+  384  cp package* ../node-todo-cicd-aws-pipeline/
+  385  rm data.txt 
+  386  clear
+  387  ll
+  388  mv Jenkinsfile ../node-todo-cicd-aws-pipeline/
+  389  mv docker-compose.yaml ../node-todo-cicd-aws-pipeline/
+  390  clear
+  391  cd ../node-todo-cicd-aws-pipeline/
+  392  ll
+  393  clear
+  394  ll
+  395  git remote -v
+  396  git remote set-url --add origin https://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@github.com/ashubambal/node-todo-cicd-aws-pipeline.git
+  397  git remote -v
+  398  git remote set-url --delete https://github.com/ashubambal/node-todo-cicd-aws-pipeline.git
+  399  git remote set-url --delete origin https://github.com/ashubambal/node-todo-cicd-aws-pipeline.git
+  400  clear
+  401  git remote -v
+  402  git status
+  403  git add .
+  404  git status
+  405  git commit -m "Python code added"
+  406  clear
+  407  git pudh origin main
+  408  git push origin main
+  409  clear
+  410  vi codedeploy_ap-south-1_agent_script.sh
+  411  chmod 760 codedeploy_ap-south-1_agent_script.sh 
+  412  ./codedeploy_ap-south-1_agent_script.sh 
+  413  vi codedeploy_ap-south-1_agent_script.sh 
+  414  ./codedeploy_ap-south-1_agent_script.sh 
+  415  vi codedeploy_ap-south-1_agent_script.sh 
+  416  clear
+  417  ./codedeploy_ap-south-1_agent_script.sh 
+  418  vi codedeploy_ap-south-1_agent_script.sh 
+  419  ./codedeploy_ap-south-1_agent_script.sh 
+  420  clear
+  421  ./codedeploy_ap-south-1_agent_script.sh 
+  422  sudo apt update
+  423  sudo apt install ruby-full
+  424  sudo apt install wget
+  425  clear
+  426  ll
+  427  vi codedeploy_ap-south-1_agent_script.sh 
+  428  clear
+  429  ./codedeploy_ap-south-1_agent_script.sh 
+  430  clear
+  431  vi codedeploy_ap-south-1_agent_script.sh 
+  432  ./codedeploy_ap-south-1_agent_script.sh 
+  433  vi codedeploy_ap-south-1_agent_script.sh 
+  434  ./codedeploy_ap-south-1_agent_script.sh 
+  435  clear
+  436  sudo service codedeploy-agent restart
+  437  sudo service codedeploy-agent status
+  438  docker ps
+  439  clear
+  440  docker ps -q
+  441  docker rm -f 9c5
+  442  docker ps
+  443  docker images
+  444  git status
+  445  clear
+  446  docker ps
+  447  docker ps
+  448  docker ps
+  449  sudo service codedeploy-agent status
+  450  docker ps
+  451  docker images
+  452  docker ps
+  453  docker images
+  454  docker ps
+  455  docker images
+  456  docker ps
+  457  docker images
+  458  docker ps
+  459  docker images
+  460  docker ps
+  461  docker images
+  462  docker ps
+  463  clear
+  464  git clone https://github.com/ashubambal/kubernates.git
+  465  cd kubernates/
+  466  ll
+  467  ./minikube_installation_script.sh 
+  468  clear
+  469  ll
+  470  clear
+  471  ll
+  472  clear
+  473  ll
+  474  clear
+  475  ll
+  476  git clone ssh -i "ubuntu-key.pem" ubuntu@ec2-3-111-171-18.ap-south-1.compute.amazonaws.com
+  477  clear
+  478  git clone https://github.com/ashubambal/aws-devops-zero-to-hero.git
+  479  cd aws-devops-zero-to-hero/
+  480  ll
+  481  clear
+  482  cd 21
+  483  ls
+  484  cd day-21
+  485  ll
+  486  clear
+  487  ls
+  488  docker build -t 371469041007.dkr.ecr.ap-south-1.amazonaws.com/aws-ecs-repo:latest .
+  489  clear
+  490  docker ps
+  491  aws ecr get-login-password --region | docker login --username AWS --password-stdin 371469041007.dkr.ecr.ap-south-1.amazonaws.com
+  492  curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
+  493  unzip awscliv2.zip
+  494  sudo ./aws/install
+  495  unzip awscliv2.zip
+  496  awscli --vesrion
+  497  clear
+  498  sudo install unzip
+  499  unzip awscliv2.zip
+  500  curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
+  501  ls
+  502  unzip awscliv2.zip
+  503  suod apt install unzip
+  504  sudo apt install unzip
+  505  clear
+  506  unzip awscliv2.zip
+  507  aws --version
+  508  clear
+  509  ll
+  510  sudo ./aws/install
+  511  ./aws/install -i /usr/local/aws-cli -b /usr/local/bin
+  512  which aws
+  513  clear
+  514  aws ecr get-login-password --region | docker login --username AWS --password-stdin 371469041007.dkr.ecr.ap-south-1.amazonaws.com
+  515  aws ecr get-login-password --region ap-south-1 | docker login --username AWS --password-stdin 371469041007.dkr.ecr.ap-south-1.amazonaws.com
+  516  aws configure
+  517  aws ecr get-login-password --region ap-south-1 | docker login --username AWS --password-stdin 371469041007.dkr.ecr.ap-south-1.amazonaws.com
+  518  clear
+  519  history
+  520  docker build -t 371469041007.dkr.ecr.ap-south-1.amazonaws.com/aws-ecs-repo:latest .
+  521  docker push 371469041007.dkr.ecr.ap-south-1.amazonaws.com/aws-ecs-repo:latest .
+  522  docker push 371469041007.dkr.ecr.ap-south-1.amazonaws.com/aws-ecs-repo:latest
+  523  eksctl delete cluster --name demo-cluster --region ap-south-1
+  524  clear
+  525  ll
+  526  clear
+  527  aws configure
+  528  clear
+  529  terraform --varsion
+  530  terraform --version
+  531  clear
+  532  ll
+  533  cd terraform/
+  534  clear
+  535  git remote -v
+  536  git pull
+  537  clear
+  538  ll
+  539  mkdir terraform_two_tier_architecture
+  540  cd terraform
+  541  cd terraform_two_tier_architecture/
+  542  clear
+  543  ll
+  544  clear
+  545  du -f
+  546  du -h
+  547  df -h
+  548  clear
+  549  ls
+  550  ll
+  551  cd docker
+  552  clear
+  553  ls
+  554  cd golang-multi-stage-docker-build/
+  555  s
+  556  l
+  557  clear
+  558  ll
+  559  docker images
+  560  clear
+  561  docker images
+  562  docker rmi <none>
+  563  docker rmi f63965f7e935
+  564  docker ps
+  565  docker ps -a
+  566  docker ps -q
+  567  docker ps -a
+  568  docker ps -aq
+  569  docker ps -a
+  570  docker stop $(docker ps -q)
+  571  docker rm $(docker ps -a -q)
+  572  docker ps
+  573  docker ps -a
+  574  clear
+  575  docker system prune
+  576  clear
+  577  docker images
+  578  docker rmi al
+  579  docker rmi all
+  580  docker rmi $(docker images -q)
+  581  clear
+  582  docker images
+  583  docker rmi 645
+  584  cear
+  585  clear
+  586  df -h
+  587  clear
+  588  ls
+  589  cd dockerfile-without-multistage/
+  590  ls
+  591  docker build -t calculator-golang-without-multistage .
+  592  clear
+  593  docker images
+  594  ll
+  595  docker images
+  596  docker run -d e96fc46c197e
+  597  docker ps
+  598  docker exec -it 6d54cf81e7a6 bash
+  599  clear
+  600  docker images
+  601  ls
+  602  go run calculator.go 
+  603  clear
+  604  history
+  605  clear
+  606  ll
+  607  vi Dockerfile 
+  608  docker images
+  609  vi Dockerfile 
+  610  docker build -t calculator-ubuntu-image
+  611  docker build -t calculator-ubuntu-image .
+  612  clear
+  613  top
+  614  clear
+  615  docker ps
+  616  docker ps -a
+  617  docker images
+  618  cd ..
+  619  l
+  620  clear
+  621  ls
+  622  vi Dockerfile 
+  623  docker build -t calculator-with-multibuild-image .
+  624  clear
+  625  docker images
+  626  docker run -d 8d38db64c086 bash
+  627  df -h
+  628  docker rmi e96fc46c197e
+  629  clear
+  630  docker ps
+  631  docker container prune
+  632  docker stop 6d54cf81e7a6
+  633  docker rm 6d54cf81e7a6
+  634  docker ps
+  635  clear
+  636  df -h
+  637  docker images
+  638  docker rmi e96fc46c197e
+  639  df -h
+  640  docker images
+  641  clear
+  642  docker run -d 8d38db64c086 bash
+  643  docker ps
+  644  df -h
+  645  docker exec -it dc7423cb659f bash
+  646  docker exec -it dc7423cb659f sh
+  647  ll
+  648  clear
+  649  l
+  650  ll
+  651  git pull
+  652  clear
+  653  git status
+  654  git add .
+  655  git status
+  656  history > history.txt
